@@ -1,4 +1,5 @@
-import threading, Queue, subprocess, signal, os, platform, getpass
+import threading, subprocess, signal, os, platform, getpass
+from multiprocessing import Queue
 
 try:
   import vim
